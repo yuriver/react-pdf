@@ -6,7 +6,6 @@
   "types": "index.d.ts",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "main": "./lib/react-pdf.cjs.js",
   "module": "./lib/react-pdf.es.js",
   "repository": {
     "type": "git",
@@ -37,7 +36,7 @@
     "scheduler": "^0.17.0"
   },
   "peerDependencies": {
-    "react": "^16.8.6 || ^17.0.0"
+    "react": "^16.8.6 || ^17.0.0 || ^18"
   },
   "lint-staged": {
     "*.js": [
@@ -54,11 +53,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/react-pdf",
     "logo": "https://opencollective.com/opencollective/logo.txt"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "git add . && lint-staged"
-    }
   },
   "devDependencies": {
     "@size-limit/preset-big-lib": "^7.0.5",
